@@ -78,6 +78,7 @@ task web:up              # Build and start (runs Vite)
 task web:logs            # Follow container logs
 task web:restart         # Restart the container
 task web:test            # Run test suite
+task web:install         # Reinstall deps from lock file (after pulling updates)
 ```
 
 **Infrastructure** (`infra:`) — requires [tbc-localdev-infra](https://github.com/tomboone/tbc-localdev-infra) cloned at `../tbc-localdev-infra`
