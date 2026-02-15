@@ -1,0 +1,5 @@
+.DS_Store
+.idea/
+
+# Claude (only ignore local settings, not CLAUDE.md)
+.claude/settings.local.json

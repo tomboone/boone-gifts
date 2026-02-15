@@ -1,0 +1,12 @@
+version: "3"
+
+includes:
+  api:
+    taskfile: ./boone-gifts-backend/Taskfile.yaml
+    dir: ./boone-gifts-backend
+  web:
+    taskfile: ./boone-gifts-frontend/Taskfile.yaml
+    dir: ./boone-gifts-frontend
+  infra:
+    taskfile: ../tbc-localdev-infra/Taskfile.yml
+    dir: ../tbc-localdev-infra

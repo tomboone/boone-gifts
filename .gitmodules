@@ -1,0 +1,6 @@
+[submodule "boone-gifts-backend"]
+	path = boone-gifts-backend
+	url = git@github.com:tomboone/boone-gifts-backend.git
+[submodule "boone-gifts-frontend"]
+	path = boone-gifts-frontend
+	url = git@github.com:tomboone/boone-gifts-frontend.git
